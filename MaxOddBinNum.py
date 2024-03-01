@@ -12,3 +12,9 @@ class Solution:
             new+="0"
         new+="1"
         return new
+        '''
+        cnt1 = s.count('1')
+        cnt0 = s.count('0')
+        ans = '1' * (cnt1 - 1) + '0' * cnt0 + '1'
+        return ans
+        '''
